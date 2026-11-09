@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Musicalm - Every Song In The World</title>
+<style>
+  *{box-sizing:border-box;font-family:Arial,sans-serif}
+  body{margin:0;background:#f5f0ff;color:#222}
+  header{background:#6a1b9a;color:#fff;padding:18px;text-align:center;position:sticky;top:0;z-index:10}
+  header h1{margin:0;font-size:28px}
+  header p{margin:4px 0 0;font-size:13px;opacity:.9}
+  .search-box{padding:16px}
+  .search-box input{width:100%;padding:14px;border-radius:25px;border:2px solid #6a1b9a;outline:none;font-size:16px;background:#fff}
+  .cats{display:flex;gap:8px;overflow-x:auto;padding:0 16px 10px}
+  .cats button{white-space:nowrap;border:none;background:#fff;color:#6a1b9a;padding:9px 16px;border-radius:20px;font-weight:bold;cursor:pointer}
+  .cats button.active{background:#6a1b9a;color:#fff}
+  #results{padding:0 16px 20px}
+  .card{background:#fff;border-radius:16px;padding:12px;display:flex;gap:12px;margin-bottom:12px;align-items:center}
+  .card img{width:70px;height:70px;border-radius:12px;object-fit:cover}
+  .info{flex:1;min-width:0}
+  .info b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .info span{font-size:13px;color:#666}
+  .btns{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .btns button,.btns a{border:none;padding:7px 10px;border-radius:20px;font-size:12px;font-weight:bold;cursor:pointer;text-decoration:none}
+  .preview{background:#6a1b9a;color:#fff}
+  .yt{background:#ff0000;color:#fff}
+  .dl{background:#ffcc00;color:#000}
+  .fav{background:#eee}
+  audio{width:100%;margin-top:8px;display:none}
+  .premium{margin:16px;background:#fff;border:2px solid #6a1b9a;border-radius:16px;padding:16px;text-align:center}
+  .premium h3{margin:0;color:#6a1b9a}
+  .premium button{background:#6a1b9a;color:#fff;border:none;padding:12px 20px;border-radius:25px;font-weight:bold;margin-top:10px;width:100%}
+  .ads{margin:16px;background:#fff;border:1px dashed #aaa;border-radius:12px;padding:12px;text-align:center;font-size:13px;color:#777}
+  footer{padding:0 16px 30px;text-align:center;font-size:12px;color:#888}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🎵 Musicalm</h1>
+  <p>Every Song In The World • Search • Preview • Download Fast</
